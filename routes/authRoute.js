@@ -50,8 +50,6 @@ router.post('/login', async (req, res) => {
       res.status(500).json({ message: 'Server error', error: error.message });
     }
   });
-router.get('/routerpg', () => {
-    console.log('router Page');
-});
+
 
 module.exports = router;
